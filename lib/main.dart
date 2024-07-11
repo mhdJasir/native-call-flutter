@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:train/animation/loading_animation.dart';
-import 'package:train/getx/multiple_instance.dart';
+import 'package:train/test.dart';
 
 void main() {
   runApp(const MyApp());
@@ -17,7 +16,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const GetXInstances(),
+      home: const TestPage(),
     );
   }
 }

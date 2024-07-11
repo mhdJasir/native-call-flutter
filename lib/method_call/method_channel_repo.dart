@@ -1,7 +1,5 @@
 import 'package:flutter/services.dart';
 
-import 'BiometricAuth.dart';
-
 class PlatformRepository {
   static const platform = MethodChannel('flutter.native/helper');
 

@@ -54,7 +54,6 @@ class _FlippingCardState extends State<FlippingCard>
                               child: Container(
                                 height: double.infinity,
                                 color: Colors.yellow,
-                                child: const Center(child: Text("Hiiiii",style: TextStyle(color: Colors.white),)),
                               ),
                             ),
                           ],
